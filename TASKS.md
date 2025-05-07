@@ -2,36 +2,36 @@
 
 ## 1. Environment Setup
 
-- [ ] Install Python 3.10 or higher.
-- [ ] Set up a virtual environment using `uv` or `venv`.
-- [ ] Install the MCP Python SDK:
+- [x] Install Python 3.10 or higher.
+- [x] Set up a virtual environment using `uv` or `venv`.
+- [x] Install the MCP Python SDK:
   ```bash
   uv add "mcp[cli]"
   ```
 
 ## 2. Project Initialization
 
-- [ ] Create the project directory structure.
-- [ ] Initialize a Git repository.
-- [ ] Set up `.gitignore` to exclude unnecessary files.
+- [x] Create the project directory structure.
+- [x] Initialize a Git repository.
+- [x] Set up `.gitignore` to exclude unnecessary files.
 
 ## 3. Basic MCP Server Implementation
 
-- [ ] Create a Python script (e.g., `server.py`) and initialize the `FastMCP` server.
-- [ ] Define a simple tool (e.g., addition function) to test server functionality.
-- [ ] Run the server and verify it starts without errors.
+- [x] Create a Python script (e.g., `server.py`) and initialize the `FastMCP` server.
+- [x] Define a simple tool (e.g., addition function) to test server functionality.
+- [x] Run the server and verify it starts without errors.
 
 ## 4. Filesystem Tools Development
 
-- [ ] Implement a tool to read file contents given a relative path.
-- [ ] Implement a tool to list directory contents.
-- [ ] Implement a tool to search files using regex patterns.
-- [ ] Implement a resource to monitor file changes (optional).
+- [x] Implement a tool to read file contents given a relative path.
+- [x] Implement a tool to list directory contents.
+- [x] Implement a tool to search files using regex patterns.
+- [x] Implement a resource to monitor file changes (optional).
 
 ## 5. Security Enhancements
 
-- [ ] Implement directory access restrictions to prevent traversal attacks.
-- [ ] Integrate `.gitignore` pattern recognition to exclude specific files.
+- [x] Implement directory access restrictions to prevent traversal attacks.
+- [x] Integrate `.gitignore` pattern recognition to exclude specific files.
 - [ ] Set up API key authentication for accessing tools and resources.
 
 ## 6. Client Integration
@@ -48,13 +48,13 @@
 
 ## 8. Documentation
 
-- [ ] Document the setup process and usage instructions.
-- [ ] Provide examples for each tool and resource.
+- [x] Document the setup process and usage instructions.
+- [x] Provide examples for each tool and resource.
 - [ ] Include security guidelines and best practices.
 
 ## 9. Integrate MCP Server with Cascade
 
-- [ ] Update Cascade MCP Configuration:
+- [x] Update Cascade MCP Configuration:
 
   - Edit `~/.codeium/windsurf/mcp_config.json` to include:
 
